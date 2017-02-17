@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongoDs"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AppUser": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Event": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "News": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Gallery": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Advertisement": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Hospital": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "KishorMandal": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Committee": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "BloodRequest": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "UserBloodRequest": {
+    "dataSource": "mongoDs",
+    "public": true
+  }
+}
