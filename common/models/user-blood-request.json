@@ -1,0 +1,33 @@
+{
+  "name": "UserBloodRequest",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "bloodRequestId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "appUser": {
+      "type": "belongsTo",
+      "model": "AppUser",
+      "foreignKey": ""
+    },
+    "bloodRequest": {
+      "type": "belongsTo",
+      "model": "BloodRequest",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
