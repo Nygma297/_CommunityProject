@@ -15,7 +15,7 @@
       "required": true
     },
     "DOB": {
-      "type": "String",
+      "type": "date",
       "required": true
     },
     "village": {

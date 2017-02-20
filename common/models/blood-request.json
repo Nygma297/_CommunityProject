@@ -17,11 +17,10 @@
   },
   "validations": [],
   "relations": {
-    "appUsers": {
-      "type": "hasMany",
+    "appUser": {
+      "type": "belongsTo",
       "model": "AppUser",
-      "foreignKey": "appUserId",
-      "through": "UserBloodRequest"
+      "foreignKey": "userId"
     }
   },
   "acls": [

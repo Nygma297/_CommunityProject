@@ -15,7 +15,7 @@
       "required": true
     },
     "DOB": {
-      "type": "String",
+      "type": "date",
       "required": true
     },
     "village": {
@@ -53,8 +53,7 @@
     "bloodRequests": {
       "type": "hasMany",
       "model": "BloodRequest",
-      "foreignKey": "bloodRequestId",
-      "through": "UserBloodRequest"
+      "foreignKey": "userId"
     }
   },
   "acls": [
