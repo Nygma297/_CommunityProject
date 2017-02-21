@@ -17,7 +17,7 @@
     "dataSource": "mongoDs"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "ACL": {
@@ -25,11 +25,11 @@
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "AppUser": {
