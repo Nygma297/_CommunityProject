@@ -66,6 +66,13 @@
       "principalId": "Admin",
       "permission": "ALLOW",
       "property": ["create", "update", "insert", "deleteById"]
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "SuperAdmin",
+      "permission": "ALLOW",
+      "property": ["create", "update", "insert", "deleteById"]
     }
   ],
   "methods": {}
