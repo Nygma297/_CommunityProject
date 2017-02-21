@@ -53,6 +53,20 @@
       "principalType": "ROLE",
       "principalId": "$authenticated",
       "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "create"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "Admin",
+      "permission": "ALLOW",
+      "property": ["create", "update", "insert", "deleteById"]
     }
   ],
   "methods": {}

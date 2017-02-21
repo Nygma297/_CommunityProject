@@ -50,16 +50,18 @@
       "permission": "ALLOW"
     },
     {
-      "accessType": "WRITE",
+      "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$authenticated",
-      "permission": "DENY"
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "create"
     },
     {
-      "accessType": "EXECUTE",
+      "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$authenticated",
-      "permission": "DENY"
+      "principalId": "Admin",
+      "permission": "ALLOW",
+      "property": ["create", "update", "insert", "deleteById"]
     }
   ],
   "methods": {}
