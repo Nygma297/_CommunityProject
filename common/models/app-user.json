@@ -41,7 +41,8 @@
     },
     "isApproved": {
       "type": "Boolean",
-      "required": true
+      "required": true,
+      "default": false
     },
     "gender": {
       "type": "String",
@@ -78,7 +79,7 @@
     {
       "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$everyone",
+      "principalId": "$authenticated",
       "permission": "DENY",
       "property": "create"
     },
