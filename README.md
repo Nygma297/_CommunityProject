@@ -21,7 +21,7 @@ An app created in react native and Loopback at it's backend support.
 - Notification on birthday for members.
 - Listing of all presidents and secretary till date.
 
-...Admin section for,
+...admin section for,
 - Adding members.
 - Exporting all members to excel sheet in listing
 - Advance search result.
