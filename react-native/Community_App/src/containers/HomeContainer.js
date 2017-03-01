@@ -4,11 +4,11 @@ import { Platform } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 import { connect } from 'react-redux'
 // import Reactotron from 'reactotron'
-import Container from '../components/Container'
+// import Container from '../components/Container'
 
 import HomeComponent from '../components/HomeComponent'
-import {viewDoc} from '../reducers/docs';
-import {actions as authActions} from '../reducers/auth';
+// import {viewDoc} from '../reducers/docs';
+// import {actions as authActions} from '../reducers/auth';
 import {VisibilityFilters} from '../actions/actionTypes';
 // import * as sele from '../selectors/todoFilter'
 import { todoFilter } from '../selectors/todoFilter';
